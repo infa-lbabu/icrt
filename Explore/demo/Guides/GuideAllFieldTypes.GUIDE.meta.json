@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aCJTQcNS3vqjSkDVfsNuIw",
+    "name" : "GuideAllFieldTypes",
+    "type" : "GUIDE",
+    "path" : "/Explore/demo/Guides",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9pH8sVYx8R8WrY1-gt-2065-2019-06-29T11:11:39.981Z::gt.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Test the fields of all types",
+        "contentType" : null,
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}

@@ -1,0 +1,546 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>9pH8sVYx8R8WrY1-gt-2065-2019-06-29T11:11:39.981Z::gt.xml</types1:EntryId>
+      <types1:Name>GuideAllFieldTypes-3</types1:Name>
+      <types1:MimeType>application/xml+screenflow</types1:MimeType>
+      <types1:Description>Test the fields of all types</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>pod1_upgrade</types1:CreatedBy>
+      <types1:CreationDate>2019-06-29T11:11:40Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <avosScreenflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                         xmlns:list="urn:activevos:spi:list:functions"
+                         allowRestart="true"
+                         displayName="GuideAllFieldTypes"
+                         doneOnEndStep="false"
+                         name="GuideAllFieldTypes-3"
+                         runAsUser="$current">
+            <description>Test the fields of all types</description>
+            <appliesTo/>
+            <tags/>
+            <generator>Informatica Screenflow Designer 9</generator>
+            <input>
+               <parameter name="Name" required="true" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Address" required="true" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Date" required="true" type="date">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="DTime" required="true" type="datetime">
+                  <options>
+                     <option name="thirtyMinutesIncrement">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Time" required="true" type="time">
+                  <options>
+                     <option name="thirtyMinutesIncrement">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Number" required="true" type="int">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Email" required="true" type="email">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Phone" required="true" type="phone">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="URL" required="true" type="url">
+                  <options>
+                     <option name="urlDisplayReadonlyAs">Link</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="TextArea" required="true" type="textarea">
+                  <options>
+                     <option name="text_width">100</option>
+                     <option name="text_height">5</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="pickList" required="true" type="picklist">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="multiSelectPicklist" required="true" type="multipicklist">
+                  <options>
+                     <option hide="true" name="multiSelect">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="Image" required="true" type="image">
+                  <options>
+                     <option name="show_preview">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+               <parameter name="RichTextArea" required="false" type="richtextarea">
+                  <options>
+                     <option name="text_height">12</option>
+                     <option name="text_width">100</option>
+                     <option name="required">false</option>
+                  </options>
+               </parameter>
+            </input>
+            <output>
+               <field name="OFullName" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="ODate" type="date">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="OTime" type="time">
+                  <options>
+                     <option name="thirtyMinutesIncrement">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="ODTime" type="datetime">
+                  <options>
+                     <option name="thirtyMinutesIncrement">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="ONumber" type="int">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="OURL" type="url">
+                  <options>
+                     <option name="urlDisplayReadonlyAs">Link</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="OEmail" type="email">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="OPhone" type="phone">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="oPicklist" type="picklist">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="oMpicklist" type="multipicklist">
+                  <options>
+                     <option hide="true" name="multiSelect">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="oImage" type="image">
+                  <options>
+                     <option name="show_preview">true</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="oTextArea" type="textarea">
+                  <options>
+                     <option name="text_width">100</option>
+                     <option name="text_height">5</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field name="oRichTextArea" type="richtextarea">
+                  <options>
+                     <option name="text_height">12</option>
+                     <option name="text_width">100</option>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+            </output>
+            <runOn target="desktop"/>
+            <notes/>
+            <deployment/>
+            <sendFeedback>
+               <emailTo/>
+            </sendFeedback>
+            <flow>
+               <startScreen id="jd300kk3">
+                  <title>Start</title>
+                  <body contentType="text/html"/>
+                  <actions>
+                     <action alt="null" id="jd300kk3_jmlyn4mg" targetScreen="jmlyn4mg">
+                        <text>Continue</text>
+                     </action>
+                  </actions>
+                  <screenData skipIfRequiredFilled="true"/>
+               </startScreen>
+               <screen id="jn1jgpzc">
+                  <title>Screen 1</title>
+                  <body contentType="text/html">&lt;p&gt;FullName :&amp;nbsp;&lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.OFullName" readonly="readonly" type="text" value="OFullName (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Date :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.ODate" readonly="readonly" type="text" value="ODate (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;DateTime :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.ODTime" readonly="readonly" type="text" value="ODTime (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Time :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.OTime" readonly="readonly" type="text" value="OTime (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Email :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.OEmail" readonly="readonly" type="text" value="OEmail (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;URL :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.OURL" readonly="readonly" type="text" value="OURL (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Number :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.ONumber" readonly="readonly" type="text" value="ONumber (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Phone :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.OPhone" readonly="readonly" type="text" value="OPhone (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Picklist :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.oPicklist" readonly="readonly" type="text" value="oPicklist (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;MultiPicklist :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.oMpicklist" readonly="readonly" type="text" value="oMpicklist (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;TextArea :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.oTextArea" readonly="readonly" type="text" value="oTextArea (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;RichTextArea :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" title="oRichTextArea (output)" name="output.oRichTextArea" readonly="readonly" type="text" value="oRichTextArea (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Image :&amp;nbsp; &lt;input style="-moz-appearance: none; background-color: lightgrey; border: none;" name="output.oImage" readonly="readonly" type="text" value="oImage (output)"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+                  <actionPrompt/>
+                  <actions>
+                     <action alt="null" id="jn1jgpzc_jd4cwa59" targetScreen="jd4cwa59">
+                        <text>Continue</text>
+                     </action>
+                  </actions>
+                  <screenData skipIfRequiredFilled="false">
+                     <screenDataItem name="output.OFullName"
+                                     readonly="true"
+                                     required="false"
+                                     type="string">
+                        <options>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.ODate"
+                                     readonly="true"
+                                     required="false"
+                                     type="date">
+                        <options>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.ODTime"
+                                     readonly="true"
+                                     required="false"
+                                     type="datetime">
+                        <options>
+                           <option name="thirtyMinutesIncrement">true</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.OEmail"
+                                     readonly="true"
+                                     required="false"
+                                     type="email">
+                        <options>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.OTime"
+                                     readonly="true"
+                                     required="false"
+                                     type="time">
+                        <options>
+                           <option name="thirtyMinutesIncrement">true</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.OURL" readonly="true" required="false" type="url">
+                        <options>
+                           <option name="urlDisplayReadonlyAs">Link</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.ONumber"
+                                     readonly="true"
+                                     required="false"
+                                     type="int">
+                        <options>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.OPhone"
+                                     readonly="true"
+                                     required="false"
+                                     type="phone">
+                        <options>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.oPicklist"
+                                     readonly="true"
+                                     required="false"
+                                     type="picklist">
+                        <options>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.oMpicklist"
+                                     readonly="true"
+                                     required="false"
+                                     type="multipicklist">
+                        <options>
+                           <option hide="true" name="multiSelect">true</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.oTextArea"
+                                     readonly="true"
+                                     required="false"
+                                     type="textarea">
+                        <options>
+                           <option name="text_width">100</option>
+                           <option name="text_height">5</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.oRichTextArea"
+                                     readonly="true"
+                                     required="false"
+                                     type="richtextarea">
+                        <options>
+                           <option name="text_height">12</option>
+                           <option name="text_width">100</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                     <screenDataItem name="output.oImage"
+                                     readonly="true"
+                                     required="false"
+                                     type="image">
+                        <options>
+                           <option name="show_preview">true</option>
+                           <option name="required">false</option>
+                        </options>
+                     </screenDataItem>
+                  </screenData>
+               </screen>
+               <endScreen id="jd4cwa59">
+                  <title>End</title>
+                  <body contentType="text/html"/>
+                  <redirectTo type="current_object"/>
+                  <screenActionLabel>
+                     <text/>
+                  </screenActionLabel>
+               </endScreen>
+               <assignment id="jmlyn4mg">
+                  <title>Assignment to Name, Address etc.</title>
+                  <operation source="screen" to="input.Name">screen.input.Name</operation>
+                  <operation source="screen" to="input.Address">screen.input.Address</operation>
+                  <operation source="screen" to="input.Date">screen.input.Date</operation>
+                  <operation source="screen" to="input.DTime">screen.input.DTime</operation>
+                  <operation source="screen" to="input.URL">screen.input.URL</operation>
+                  <operation source="screen" to="input.Email">screen.input.Email</operation>
+                  <operation source="screen" to="input.Image">screen.input.Image</operation>
+                  <operation source="screen" to="input.RichTextArea">screen.input.RichTextArea</operation>
+                  <operation source="screen" to="input.Time">screen.input.Time</operation>
+                  <operation source="screen" to="input.TextArea">screen.input.TextArea</operation>
+                  <operation source="screen" to="input.pickList">screen.input.pickList</operation>
+                  <operation source="screen" to="input.Phone">screen.input.Phone</operation>
+                  <operation source="screen" to="input.Number">screen.input.Number</operation>
+                  <operation source="screen" to="input.multiSelectPicklist">screen.input.multiSelectPicklist</operation>
+                  <screen id="jmlyn4mg-servicescreen">
+                     <title>Assignment to Name, Address etc.</title>
+                     <body contentType="text/html">&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-name-field-label"&gt;Name&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Name" type="text" value="Name*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-address-field-label"&gt;Address&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Address" type="text" value="Address*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-email-field-label"&gt;Email&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Email" type="text" value="Email*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-number-field-label"&gt;Number&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Number" type="text" value="Number"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-phone-field-label"&gt;Phone&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Phone" type="text" value="Phone"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-date-field-label"&gt;Date&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Date" type="text" value="Date*"&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-dtime-field-label"&gt;DTime&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.DTime" type="text" value="DTime*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-time-field-label"&gt;Time&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Time" type="text" value="Time"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-picklist-field-label"&gt;pickList&lt;/span&gt; &lt;input class="" title="Edit a field to change the field properties." name="screen.input.pickList" type="text" value="pickList*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-multiselectpicklist-field-label"&gt;multiSelectPicklist&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.multiSelectPicklist" type="text" value="multiSelectPicklist"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-textarea-field-label"&gt;TextArea&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.TextArea" type="text" value="TextArea"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-richtextarea-field-label"&gt;RichTextArea&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.RichTextArea" type="text" value="RichTextArea"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-url-field-label"&gt;URL&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.URL" type="text" value="URL*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id="ae-sf-viewer-screen-body-image-field-label"&gt;Image&lt;/span&gt; &lt;input title="Edit a field to change the field properties." name="screen.input.Image" type="text" value="Image*"&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</body>
+                     <actionPrompt/>
+                     <actions/>
+                     <screenData skipIfRequiredFilled="false">
+                        <screenDataItem name="screen.input.Name"
+                                        readonly="false"
+                                        required="true"
+                                        type="string">
+                           <options>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Address"
+                                        readonly="false"
+                                        required="true"
+                                        type="string">
+                           <options>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Number"
+                                        readonly="false"
+                                        required="false"
+                                        type="int">
+                           <options>
+                              <option name="required">false</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Phone"
+                                        readonly="false"
+                                        required="false"
+                                        type="phone">
+                           <options>
+                              <option name="required">false</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Email"
+                                        readonly="false"
+                                        required="true"
+                                        type="email">
+                           <options>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Date"
+                                        readonly="false"
+                                        required="true"
+                                        type="date">
+                           <options>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.DTime"
+                                        readonly="false"
+                                        required="true"
+                                        type="datetime">
+                           <options>
+                              <option name="thirtyMinutesIncrement">true</option>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Time"
+                                        readonly="false"
+                                        required="false"
+                                        type="time">
+                           <options>
+                              <option name="thirtyMinutesIncrement">true</option>
+                              <option name="required">false</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.pickList"
+                                        readonly="false"
+                                        required="false"
+                                        type="picklist">
+                           <options>
+                              <option name="required">true</option>
+                              <option name="values">[{"label":"pod1","value":"pod1"},{"label":"azure","value":"azure"},{"label":"emea","value":"emea"},{"label":"staging1","value":"staging1"}]</option>
+                              <option hide="true" name="valuelist.source">csv</option>
+                              <option hide="true" name="valuelist.csvdata">pod1,azure,emea,staging1</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.multiSelectPicklist"
+                                        readonly="false"
+                                        required="false"
+                                        type="multipicklist">
+                           <options>
+                              <option hide="true" name="multiSelect">true</option>
+                              <option name="required">false</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.TextArea"
+                                        readonly="false"
+                                        required="false"
+                                        type="textarea">
+                           <options>
+                              <option name="text_width">100</option>
+                              <option name="text_height">5</option>
+                              <option name="required">false</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.RichTextArea"
+                                        readonly="false"
+                                        required="false"
+                                        type="richtextarea">
+                           <options>
+                              <option name="text_height">12</option>
+                              <option name="text_width">100</option>
+                              <option name="required">false</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.URL"
+                                        readonly="false"
+                                        required="true"
+                                        type="url">
+                           <options>
+                              <option name="urlDisplayReadonlyAs">Link</option>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                        <screenDataItem name="screen.input.Image"
+                                        readonly="false"
+                                        required="true"
+                                        type="image">
+                           <options>
+                              <option name="show_preview">true</option>
+                              <option name="required">true</option>
+                           </options>
+                        </screenDataItem>
+                     </screenData>
+                  </screen>
+                  <actions>
+                     <action alt="null" id="jmlyn4mg_jn1jgpzh" targetScreen="jn1jgpzh">
+                        <text>Continue</text>
+                     </action>
+                  </actions>
+               </assignment>
+               <assignment id="jn1jgpzh">
+                  <title>Assignment to OFullName, OEmail etc.</title>
+                  <operation source="formula" to="output.OFullName">
+                     <expression language="XQuery">fn:concat($input.Name , $input.Address )</expression>
+                  </operation>
+                  <operation source="field" to="output.OEmail">input.Email</operation>
+                  <operation source="field" to="output.ODate">input.Date</operation>
+                  <operation source="field" to="output.ODTime">input.DTime</operation>
+                  <operation source="field" to="output.oImage">input.Image</operation>
+                  <operation source="field" to="output.oPicklist">input.pickList</operation>
+                  <operation source="field" to="output.OPhone">input.Phone</operation>
+                  <operation source="field" to="output.oMpicklist">input.multiSelectPicklist</operation>
+                  <operation source="field" to="output.ONumber">input.Number</operation>
+                  <operation source="field" to="output.oRichTextArea">input.RichTextArea</operation>
+                  <operation source="field" to="output.oTextArea">input.TextArea</operation>
+                  <operation source="field" to="output.OTime">input.Time</operation>
+                  <operation source="field" to="output.OURL">input.URL</operation>
+                  <actions>
+                     <action alt="null" id="jn1jgpzh_jn1jgpzc" targetScreen="jn1jgpzc">
+                        <text>Continue</text>
+                     </action>
+                  </actions>
+               </assignment>
+            </flow>
+         </avosScreenflow>
+      </types1:Entry>
+      <types1:GUID>aCJTQcNS3vqjSkDVfsNuIw</types1:GUID>
+      <types1:DisplayName>GuideAllFieldTypes</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2019-06-29T11:14:31.935Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
