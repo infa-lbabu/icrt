@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6Xxh0UvS2dxjgMRZX7nlUh",
+    "name" : "CopyNewTest",
+    "type" : "TASKFLOW",
+    "path" : "/Explore/TestCopyProject",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "EHww43dtQR6kbeJ-gt-2863-2019-06-28T18:29:11.485Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "test functionality Copy",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
