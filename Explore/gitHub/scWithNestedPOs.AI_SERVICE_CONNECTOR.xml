@@ -1,0 +1,143 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>uZfYEWNTrKkQIW3-gt-1680-2019-06-29T11:02:38.329Z::svc.xml</types1:EntryId>
+      <types1:Name>scWithNestedPOs-1</types1:Name>
+      <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>pod1_upgrade</types1:CreatedBy>
+      <types1:CreationDate>2019-06-29T11:02:38Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
+                            agentOnly="false"
+                            debug="false"
+                            displayName="scWithNestedPOs"
+                            label=""
+                            name="scWithNestedPOs-1"
+                            uuid="2188a60f-0421-4467-9e21-ec5393559f0b">
+            <description/>
+            <tags/>
+            <connectionAttributes xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"/>
+            <actions>
+               <action category=""
+                       failOnError="true"
+                       forSearch="false"
+                       label="test"
+                       maxRedirects="100"
+                       name="test"
+                       preemptiveAuth="true"
+                       responseEncoding="">
+                  <description/>
+                  <input>
+                     <parameter name="inp" required="false" testWith="" type="reference">
+                        <options>
+                           <option name="referenceTo">author 2</option>
+                        </options>
+                     </parameter>
+                  </input>
+                  <binding>
+                     <restSimpleBinding multiUsing="semicolonSeparated"
+                                        url="https://ai-pod.ics.dev"
+                                        verb="GET"/>
+                  </binding>
+                  <output>
+                     <field description=""
+                            entireResponse="true"
+                            name="out"
+                            type="reference">
+                        <options>
+                           <option name="referenceTo">book</option>
+                        </options>
+                     </field>
+                  </output>
+               </action>
+            </actions>
+            <objects>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="author">
+                  <description/>
+                  <detail>
+                     <field name="name" type="string"/>
+                     <field name="home" type="reference">
+                        <options>
+                           <option name="referenceTo">house</option>
+                           <option name="relationshipName">Child</option>
+                        </options>
+                     </field>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="book">
+                  <description/>
+                  <detail>
+                     <field name="title" type="string"/>
+                     <field name="authors" type="objectlist">
+                        <options>
+                           <option name="referenceTo">author</option>
+                           <option name="relationshipName">Child</option>
+                        </options>
+                     </field>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="house">
+                  <description/>
+                  <detail>
+                     <field name="address" type="string"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="author2">
+                  <description/>
+                  <detail>
+                     <field name="name2" type="string"/>
+                     <field name="home2" type="reference">
+                        <options>
+                           <option name="referenceTo">house2</option>
+                           <option name="relationshipName">Child</option>
+                        </options>
+                     </field>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="book2">
+                  <description/>
+                  <detail>
+                     <field name="title2" type="string"/>
+                     <field name="authors2" type="objectlist">
+                        <options>
+                           <option name="referenceTo">author2</option>
+                           <option name="relationshipName">Child</option>
+                        </options>
+                     </field>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              isByCopy="true"
+                              name="house2">
+                  <description/>
+                  <detail>
+                     <field name="address2" type="string"/>
+                  </detail>
+               </processObject>
+            </objects>
+         </businessConnector>
+      </types1:Entry>
+      <types1:GUID>1lsKRT8ePqdjsxKyXn4oSK</types1:GUID>
+      <types1:DisplayName>scWithNestedPOs</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2019-06-29T11:03:26.727Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

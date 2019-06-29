@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1lsKRT8ePqdjsxKyXn4oSK",
+    "name" : "scWithNestedPOs",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "path" : "/Explore/gitHub",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "uZfYEWNTrKkQIW3-gt-1680-2019-06-29T11:02:38.329Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
