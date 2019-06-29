@@ -1,0 +1,43 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>MuzBq695kchzt1Y-gt-1688-2019-06-29T11:02:38.627Z::conn.xml</types1:EntryId>
+      <types1:Name>ConnWithNestedPOs-1</types1:Name>
+      <types1:ParentFlowIds>5hA7vNljLYqBGZk-gt-1698-2019-06-29T11:02:38.906Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+connection</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>pod1_upgrade</types1:CreatedBy>
+      <types1:CreationDate>2019-06-29T11:02:39Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <connection xmlns="http://schemas.informatica.com/socrates/data-services/2014/04/avosConnections.xsd"
+                     displayName="ConnWithNestedPOs"
+                     label="ConnWithNestedPOs"
+                     name="ConnWithNestedPOs-1">
+            <description/>
+            <tags/>
+            <agent/>
+            <attributes/>
+            <businessConnector xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"
+                               agentOnly="false"
+                               connectorPath="project:/rt.connector/scWithNestedPOs/scWithNestedPOs_svcDef.xml"
+                               guid="1lsKRT8ePqdjsxKyXn4oSK"
+                               name="scWithNestedPOs"
+                               supportsConnectionTest="false"
+                               uuid="2188a60f-0421-4467-9e21-ec5393559f0b">
+               <description/>
+            </businessConnector>
+         </connection>
+      </types1:Entry>
+      <types1:GUID>18doy812uQijBFl871nnWo</types1:GUID>
+      <types1:DisplayName>ConnWithNestedPOs</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2019-06-29T11:02:55.654Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

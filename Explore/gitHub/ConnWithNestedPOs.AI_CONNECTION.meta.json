@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "18doy812uQijBFl871nnWo",
+    "name" : "ConnWithNestedPOs",
+    "type" : "AI_CONNECTION",
+    "path" : "/Explore/gitHub",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "MuzBq695kchzt1Y-gt-1688-2019-06-29T11:02:38.627Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ {
+        "id" : "1lsKRT8ePqdjsxKyXn4oSK",
+        "name" : "scWithNestedPOs",
+        "type" : "AI_SERVICE_CONNECTOR",
+        "path" : "/Explore/gitHub",
+        "metadata" : {
+          "modelVersion" : {
+            "major" : 1,
+            "minor" : 0
+          },
+          "repoInfo" : {
+            "repoHandle" : "uZfYEWNTrKkQIW3-gt-1680-2019-06-29T11:02:38.329Z::svc.xml"
+          },
+          "contextAttributes" : null,
+          "additionalInfo" : {
+            "description" : "",
+            "contentType" : "application/json; charset=utf-8",
+            "documentState" : "VALID"
+          },
+          "objectRefs" : [ ]
+        },
+        "dataFileExtension" : null
+      } ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
