@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "3saOIiuTV7EhOE4QasiCif",
+    "name" : "TestCopyProject",
+    "type" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectRefs" : [ ]
+    },
+    "dataFileExtension" : "json"
+  }
+}
