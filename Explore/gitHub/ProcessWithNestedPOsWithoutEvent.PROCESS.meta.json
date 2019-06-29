@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "45GwauUHgMCegoxmN4YHoa",
+    "name" : "ProcessWithNestedPOsWithoutEvent",
+    "type" : "PROCESS",
+    "path" : "/Explore/gitHub",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5hA7vNljLYqBGZk-gt-1698-2019-06-29T11:02:38.906Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Process Description",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectRefs" : [ {
+        "id" : "18doy812uQijBFl871nnWo",
+        "name" : "ConnWithNestedPOs",
+        "type" : "AI_CONNECTION",
+        "path" : "/Explore/gitHub",
+        "metadata" : {
+          "modelVersion" : {
+            "major" : 1,
+            "minor" : 0
+          },
+          "repoInfo" : {
+            "repoHandle" : "MuzBq695kchzt1Y-gt-1688-2019-06-29T11:02:38.627Z::conn.xml"
+          },
+          "contextAttributes" : null,
+          "additionalInfo" : {
+            "description" : "",
+            "contentType" : "application/json; charset=utf-8",
+            "documentState" : "VALID"
+          },
+          "objectRefs" : [ ]
+        },
+        "dataFileExtension" : null
+      } ]
+    },
+    "dataFileExtension" : "xml"
+  }
+}
